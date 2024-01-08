@@ -6,5 +6,9 @@
         {
             return number % 2 != 0;
         }
+        public static bool ValidateNumberNatural(int number)
+        {
+            return number > 0;
+        }
     }
 }
