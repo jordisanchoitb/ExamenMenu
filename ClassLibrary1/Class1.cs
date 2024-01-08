@@ -19,5 +19,10 @@
             }
             return result;
         }
+        public static int RandomNumber(int rangmin, int rangmax)
+        {
+            Random random = new Random();
+            return random.Next(rangmin, rangmax);
+        }
     }
 }
