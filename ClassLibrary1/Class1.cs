@@ -36,5 +36,17 @@
             }
             return count;
         }
+        public static int CountConsonants(string text)
+        {
+            int count = 0;
+            foreach (char letter in text)
+            {
+                if (letter != 'a' && letter != 'e' && letter != 'i' && letter != 'o' && letter != 'u')
+                {
+                    count++;
+                }
+            }
+            return count;
+        }
     }
 }
