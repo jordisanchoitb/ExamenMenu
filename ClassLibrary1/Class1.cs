@@ -10,5 +10,14 @@
         {
             return number > 0;
         }
+        public static int CalculatePower(int number, int power)
+        {
+            int result = 1;
+            for (int i = 0; i < power; i++)
+            {
+                result *= number;
+            }
+            return result;
+        }
     }
 }
